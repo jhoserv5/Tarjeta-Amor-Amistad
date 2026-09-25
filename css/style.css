@@ -187,3 +187,47 @@ body::before {
     transition: opacity 0.3s ease 0.3s, transform 0.3s ease 0.3s;
 }
 
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 400px;
+        padding: 25px;
+        max-height: 90vh;
+    }
+
+    .portada h1 {
+        font-size: 27px;
+    }
+
+    .portada > p {
+        font-size: 15px;
+    }
+
+    .polaroid {
+        width: 190px;
+        margin-bottom: 25px;
+    }
+
+    .polaroid img {
+        height: 160px;
+    }
+
+    .contenido h2 {
+        font-size: 24px;
+    }
+
+    .contenido p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .contenido h3 {
+        font-size: 16px;
+    }
+}
+
+
