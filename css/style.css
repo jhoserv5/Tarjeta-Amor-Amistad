@@ -28,8 +28,9 @@ body::before {
 }
 .tarjeta {
     width: 400px;
-    min-height: 520px;
-    padding: 40px;
+    min-height: 0;
+    max-height: 90vh;
+    padding: 30px;
     background: #163A5F;
     border-radius: 20px;
     text-align: center;
